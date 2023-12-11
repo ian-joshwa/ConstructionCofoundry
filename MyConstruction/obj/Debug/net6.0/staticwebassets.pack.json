@@ -1,0 +1,561 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MyConstruction.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MyConstruction.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\TeamImages\\6e311b68-75fe-4b2a-bdb0-131a06d25edd-team2.jpeg",
+      "PackagePath": "staticwebassets\\TeamImages\\6e311b68-75fe-4b2a-bdb0-131a06d25edd-team2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\TeamImages\\cecda5d1-2e03-4de3-8a1b-916556f0407b-Ken Follett.jpeg",
+      "PackagePath": "staticwebassets\\TeamImages\\cecda5d1-2e03-4de3-8a1b-916556f0407b-Ken Follett.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\bundle\\base.min.js",
+      "PackagePath": "staticwebassets\\bundle\\base.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\bundle\\main.js",
+      "PackagePath": "staticwebassets\\bundle\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\css\\icofont.min.css",
+      "PackagePath": "staticwebassets\\css\\icofont.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\css\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\css\\responsive\\4k.css",
+      "PackagePath": "staticwebassets\\css\\responsive\\4k.css"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\css\\responsive\\default.css",
+      "PackagePath": "staticwebassets\\css\\responsive\\default.css"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\css\\responsive\\laptop-l.css",
+      "PackagePath": "staticwebassets\\css\\responsive\\laptop-l.css"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\css\\responsive\\laptop.css",
+      "PackagePath": "staticwebassets\\css\\responsive\\laptop.css"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\css\\responsive\\mobile-l.css",
+      "PackagePath": "staticwebassets\\css\\responsive\\mobile-l.css"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\css\\responsive\\mobile-m.css",
+      "PackagePath": "staticwebassets\\css\\responsive\\mobile-m.css"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\css\\responsive\\mobile-s.css",
+      "PackagePath": "staticwebassets\\css\\responsive\\mobile-s.css"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\css\\responsive\\tablet.css",
+      "PackagePath": "staticwebassets\\css\\responsive\\tablet.css"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\fonts\\icofont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\icofont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\fonts\\questrial-regular.woff2",
+      "PackagePath": "staticwebassets\\fonts\\questrial-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\images\\approach_2.JPEG",
+      "PackagePath": "staticwebassets\\images\\approach_2.JPEG"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\images\\certi_logo\\iso.png",
+      "PackagePath": "staticwebassets\\images\\certi_logo\\iso.png"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\images\\certi_logo\\pmp.png",
+      "PackagePath": "staticwebassets\\images\\certi_logo\\pmp.png"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\images\\company_crystali.png",
+      "PackagePath": "staticwebassets\\images\\company_crystali.png"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\images\\core_values.jpg",
+      "PackagePath": "staticwebassets\\images\\core_values.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\images\\cross.png",
+      "PackagePath": "staticwebassets\\images\\cross.png"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\images\\dark-logo.png",
+      "PackagePath": "staticwebassets\\images\\dark-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\images\\home\\svg\\plus.svg",
+      "PackagePath": "staticwebassets\\images\\home\\svg\\plus.svg"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\images\\menu\\menu_arrow.svg",
+      "PackagePath": "staticwebassets\\images\\menu\\menu_arrow.svg"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\images\\menu\\menu_bg.jpg",
+      "PackagePath": "staticwebassets\\images\\menu\\menu_bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\images\\my\\collage_img.png",
+      "PackagePath": "staticwebassets\\images\\my\\collage_img.png"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\images\\my\\header.jpg",
+      "PackagePath": "staticwebassets\\images\\my\\header.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\images\\my\\office_1200.png",
+      "PackagePath": "staticwebassets\\images\\my\\office_1200.png"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\images\\projects-header.jpg",
+      "PackagePath": "staticwebassets\\images\\projects-header.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\images\\why_us_1.jpg",
+      "PackagePath": "staticwebassets\\images\\why_us_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\js\\Material.js",
+      "PackagePath": "staticwebassets\\js\\Material.js"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\js\\SupervisorProjects.js",
+      "PackagePath": "staticwebassets\\js\\SupervisorProjects.js"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\js\\animation.js",
+      "PackagePath": "staticwebassets\\js\\animation.js"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\js\\home.js",
+      "PackagePath": "staticwebassets\\js\\home.js"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lightbox2\\.editorconfig",
+      "PackagePath": "staticwebassets\\lightbox2\\.editorconfig"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lightbox2\\.gitignore",
+      "PackagePath": "staticwebassets\\lightbox2\\.gitignore"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lightbox2\\.jscsrc",
+      "PackagePath": "staticwebassets\\lightbox2\\.jscsrc"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lightbox2\\.jshintrc",
+      "PackagePath": "staticwebassets\\lightbox2\\.jshintrc"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lightbox2\\DEPLOY.md",
+      "PackagePath": "staticwebassets\\lightbox2\\DEPLOY.md"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lightbox2\\Gruntfile.js",
+      "PackagePath": "staticwebassets\\lightbox2\\Gruntfile.js"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lightbox2\\LICENSE",
+      "PackagePath": "staticwebassets\\lightbox2"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lightbox2\\README.md",
+      "PackagePath": "staticwebassets\\lightbox2\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lightbox2\\ROADMAP.md",
+      "PackagePath": "staticwebassets\\lightbox2\\ROADMAP.md"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lightbox2\\bower.json",
+      "PackagePath": "staticwebassets\\lightbox2\\bower.json"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lightbox2\\dist\\css\\lightbox.css",
+      "PackagePath": "staticwebassets\\lightbox2\\dist\\css\\lightbox.css"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lightbox2\\dist\\css\\lightbox.min.css",
+      "PackagePath": "staticwebassets\\lightbox2\\dist\\css\\lightbox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lightbox2\\dist\\images\\close.png",
+      "PackagePath": "staticwebassets\\lightbox2\\dist\\images\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lightbox2\\dist\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\lightbox2\\dist\\images\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lightbox2\\dist\\images\\next.png",
+      "PackagePath": "staticwebassets\\lightbox2\\dist\\images\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lightbox2\\dist\\images\\prev.png",
+      "PackagePath": "staticwebassets\\lightbox2\\dist\\images\\prev.png"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lightbox2\\dist\\js\\lightbox-plus-jquery.js",
+      "PackagePath": "staticwebassets\\lightbox2\\dist\\js\\lightbox-plus-jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lightbox2\\dist\\js\\lightbox-plus-jquery.min.js",
+      "PackagePath": "staticwebassets\\lightbox2\\dist\\js\\lightbox-plus-jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lightbox2\\dist\\js\\lightbox-plus-jquery.min.map",
+      "PackagePath": "staticwebassets\\lightbox2\\dist\\js\\lightbox-plus-jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lightbox2\\dist\\js\\lightbox.js",
+      "PackagePath": "staticwebassets\\lightbox2\\dist\\js\\lightbox.js"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lightbox2\\dist\\js\\lightbox.min.js",
+      "PackagePath": "staticwebassets\\lightbox2\\dist\\js\\lightbox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lightbox2\\dist\\js\\lightbox.min.map",
+      "PackagePath": "staticwebassets\\lightbox2\\dist\\js\\lightbox.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lightbox2\\examples\\index.html",
+      "PackagePath": "staticwebassets\\lightbox2\\examples\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lightbox2\\package-lock.json",
+      "PackagePath": "staticwebassets\\lightbox2\\package-lock.json"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lightbox2\\package.json",
+      "PackagePath": "staticwebassets\\lightbox2\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lightbox2\\src\\css\\lightbox.css",
+      "PackagePath": "staticwebassets\\lightbox2\\src\\css\\lightbox.css"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lightbox2\\src\\images\\close.png",
+      "PackagePath": "staticwebassets\\lightbox2\\src\\images\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lightbox2\\src\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\lightbox2\\src\\images\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lightbox2\\src\\images\\next.png",
+      "PackagePath": "staticwebassets\\lightbox2\\src\\images\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lightbox2\\src\\images\\prev.png",
+      "PackagePath": "staticwebassets\\lightbox2\\src\\images\\prev.png"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\lightbox2\\src\\js\\lightbox.js",
+      "PackagePath": "staticwebassets\\lightbox2\\src\\js\\lightbox.js"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\media\\mobile_reel_v2.mp4",
+      "PackagePath": "staticwebassets\\media\\mobile_reel_v2.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\media\\mod_languages\\css\\template.css",
+      "PackagePath": "staticwebassets\\media\\mod_languages\\css\\template.css"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\media\\reel_v2.mp4",
+      "PackagePath": "staticwebassets\\media\\reel_v2.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Ian Joshwa\\source\\repos\\myconstruction\\MyConstruction\\wwwroot\\public\\services\\9d7dbd20-f8b0-45e4-b4c0-3ea60ed92d5d.jpg",
+      "PackagePath": "staticwebassets\\public\\services\\9d7dbd20-f8b0-45e4-b4c0-3ea60ed92d5d.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.MyConstruction.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.MyConstruction.props",
+      "PackagePath": "build\\MyConstruction.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.MyConstruction.props",
+      "PackagePath": "buildMultiTargeting\\MyConstruction.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.MyConstruction.props",
+      "PackagePath": "buildTransitive\\MyConstruction.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

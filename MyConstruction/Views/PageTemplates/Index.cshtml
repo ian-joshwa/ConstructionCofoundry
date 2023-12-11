@@ -1,0 +1,677 @@
+﻿@using Cofoundry.Web;
+@using Cofoundry.Domain;
+@inject OctaLib.Plugins.MyConstruction.Domain.ServiceInfoDataProvider serviceInfoProvider;
+@inject OctaLib.Plugins.MyConstruction.Domain.ProjectInfoProvider projectInfoProvider;
+
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "/Views/Shared/_Layout.cshtml";
+    var featuredServices = serviceInfoProvider.GetFeatured();
+    var featuredProjects = projectInfoProvider.GetFeaturedProjects();
+}
+
+
+@model IPageViewModel
+@inject ICofoundryTemplateHelper<IPageViewModel> Cofoundry
+
+<div id=main_menu class="position-fixed vw-100 vh-md-100">
+    <div id=close_btn>
+        <a class=close-link title="Close Menu">
+            <span class="d-block svg_icon">
+                <svg viewBox="0 0 35.9 35.9">
+                    <g transform="translate(-844.031 -82.594) rotate(-45)">
+                        <rect x=536.7 y=659.6
+                              transform="matrix(-1 2.535182e-06 -2.535182e-06 -1 1076.8354 1363.3412)" width=3.4
+                              height=44.2 />
+                        <rect x=544.9 y=678.7
+                              transform="matrix(-1 2.535182e-06 -2.535182e-06 -1 1106.3293 1360.3932)" width=16.5
+                              height=2.9 />
+                        <rect x=515.4 y=678.7
+                              transform="matrix(-1 2.535182e-06 -2.535182e-06 -1 1047.3413 1360.3912)" width=16.5
+                              height=2.9 />
+                    </g>
+                </svg>
+            </span>
+        </a>
+    </div>
+    <div class="row vh-md-100"> @*mobile-overflow*@
+        <div class="logoandcontact-col col-12 col-lg-4 position-relative">
+            <div class="row vh-md-100">
+                <div class="appear col-12 col-md-12 col-lg-4">
+                    <div id=menu_logo class="position-md-absolute one">
+                        <a class=d-inline-block href="/">
+                            <img src=/images/logo.png alt="MY Construction">
+                        </a>
+                    </div>
+                </div>
+                <div class="d-none d-lg-block appear col-12 col-md-12 col-lg-8">
+                    <div id=menu_contact class="position-md-absolute two">
+                        <div class=custom>
+                            <p>
+                                <a href=tel:+923353222777 class=white_text
+                                   title="Call us +92 335 3222 777">&#x2B;92 335 3222 777</a>
+                            <p>
+                                <a href=tel:+924235694332 class=white_text
+                                   title="Call us +92 42 356 94332">&#x2B;92 42 356 94332</a>
+                            <p>
+                                <a href=mailto:imran@myconstruction.pk class=white_text
+                                   title="Send us your message imran@myconstruction.pk">imran@myconstruction.pk</a>
+                            <p class="white_text mb-0 address">
+                                182 DD CCA Phase IV, DHA Lahore, 54810, Pakistan <br>
+                                <a href=//g.page/myconstructionpk target=_blank rel=noopener
+                                   class="white_text fz-14px" title="View Map">(View Map)</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-col appear col-12 col-lg-7 position-relative">
+            <nav class="navigation three" role=navigation>
+                <ul class="nav menu mod-list">
+                    <li class="appear-x item-126">
+                        <a href=/company class="title text-uppercase white_text">Company</a>
+                    <li class="appear-x item-128">
+                        <a href=/approach class="title text-uppercase white_text">Approach</a>
+                    <li class="appear-x item-127">
+                        <a href=/services class="title text-uppercase white_text">Services</a>
+                    <li class="appear-x item-136">
+                        <a href=/projects class="title text-uppercase white_text">Projects</a>
+                </ul>
+            </nav>
+        </div>
+        <div class="menucontact-col d-lg-none appear col-12">
+            <div id=menu_contact class="position-md-absolute two">
+                <div class=custom>
+                    <a href=mailto:imran@myconstruction.pk class=white_text
+                       title="Send us your message imran@myconstruction.pk">imran@myconstruction.pk </a>
+                    <p>
+                        <a href=tel:+923353222777 class=white_text title="Call us +92 335 3222 777">
+                            &#x2B;92 335
+                            3222 777
+                        </a>
+                    <p>
+                        <a href=tel:+924235694332 class=white_text title="Call us +92 42 356 94332">
+                            &#x2B;92 42
+                            356 94332
+                        </a>
+                    <p class="white_text mb-0">
+                        182 DD CCA Phase IV, DHA Lahore, 54810, Pakistan <br>
+                        <a href=//g.page/myconstructionpk target=_blank rel=noopener class="white_text fz-14px"
+                           title="View MY Construction on Map">(View Map)</a>
+                </div>
+            </div>
+        </div>
+        <div class="appear social-col col-12 col-lg-1 position-relative">
+            <div id=menu_social class="position-md-absolute four">
+                <a class="d-lg-block inst text-uppercase white_text" target=_blank
+                   href="//www.instagram.com/myconstructionpk/">
+                    <span class="ico icofont-instagram"></span>
+                </a>
+                <a class="d-lg-block face text-uppercase white_text" target=_blank
+                   href=//www.facebook.com/myconstructionpk>
+                    <span class="ico icofont-facebook"></span>
+                </a>
+                <a class="d-lg-block twit text-uppercase white_text" target=_blank>
+                    <span class="ico icofont-pinterest"></span>
+                </a>
+                <a class="d-lg-block yout text-uppercase white_text" target=_blank
+                   href=//www.youtube.com/channel/UC1LpDkv5DYiBdZFr5NxZsvQ>
+                    <span class="ico icofont-youtube-play"></span>
+                </a>
+                <a class="d-lg-block twit text-uppercase white_text" target=_blank href=#>
+                    <span class="ico icofont-twitter"></span>
+                </a>
+                <a class="d-lg-block linkd text-uppercase white_text" target=_blank>
+                    <span class="ico icofont-linkedin"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id=top class="body position-relative h-100">
+    <div class="inner-body position-relative h-100 overflow-hidden">
+        <div class=cursor></div>
+        <div id=stripes>
+            <div class=container-fluid>
+                <div class=row>
+                    <span class="col-2 position-absolute stripe one d-block"></span>
+                    <span class="col-4 position-absolute stripe two d-block"></span>
+                    <span class="col-4 position-absolute stripe three d-block"></span>
+                    <span class="col-1 position-absolute stripe four d-block"></span>
+                </div>
+            </div>
+        </div>
+        <div id=left_bar class="position-absolute home">
+            <div id=menu_btn>
+                <a class=d-block title="Open Menu">
+                    <span class="d-block svg_icon">
+                        <svg viewBox="0 0 46.5 44.7">
+                            <g transform="translate(-515.167 -659.337)">
+                                <rect x=536.7 y=659.6 width=3.4 height=44.2 />
+                                <rect x=544.9 y=678.7 width=16.5 height=2.9 />
+                                <rect x=515.4 y=678.7 width=16.5 height=2.9 />
+                            </g>
+                        </svg>
+                    </span>
+                    <span class="d-block menu_text">MENU</span>
+                </a>
+            </div>
+            <div id=social class=position-absolute>
+                <span class="d-block contact_text white_text">
+                    <a class=white_text title="Contact Us" href=/contact-us>CONTACT</a>
+                </span>
+                <a class="d-block face text-uppercase white_text" href=//www.facebook.com/myconstructionpk
+                   target=_blank>
+                    <span class="ico icofont-facebook"></span>
+                </a>
+                <a class="d-block inst text-uppercase white_text" href="//www.instagram.com/myconstructionpk/"
+                   target=_blank>
+                    <span class="ico icofont-instagram"></span>
+                </a>
+                <a class="d-block inst text-uppercase white_text" target=_blank>
+                    <span class="ico icofont-pinterest"></span>
+                </a>
+                <a class="d-block inst text-uppercase white_text"
+                   href=//www.youtube.com/channel/UC1LpDkv5DYiBdZFr5NxZsvQ target=_blank>
+                    <span class="ico icofont-youtube-play"></span>
+                </a>
+                <a class="d-block inst text-uppercase white_text" href=# target=_blank>
+                    <span class="ico icofont-twitter"></span>
+                </a>
+                <a class="d-block inst text-uppercase white_text" target=_blank>
+                    <span class="ico icofont-linkedin"></span>
+                </a>
+            </div>
+        </div>
+        <header id=header class="header position-relative" role=banner>
+            <div class=container-fluid>
+                <div class="row align-items-start">
+                    <div class="col-8 col-md-6">
+                        <a id=logo class="d-inline-block brand" href="/">
+                            <img src=/images/logo.png alt="MY Construction">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class=outer-height>
+            <section id=slideshow class="position-relative l-padding pr-0 vw-100 home">
+                <video class="d-block-laptop d-hide-mobile"
+                       style="width:calc(100% + 200px);left:-200px;height:100%;position:absolute;object-fit:cover" loop
+                       muted autoplay>
+                    <source media=(min-width:767px) src=/media/reel_v2.mp4>
+                </video>
+                <video class="d-hide-laptop d-block-mobile"
+                       style="width:calc(100% + 200px);left:-200px;height:100%;position:absolute;object-fit:cover" loop
+                       muted autoplay>
+                    <source media=(max-width:768px) src=/media/mobile_reel_v2.mp4>
+                </video>
+                <div class="container-fluid pr-0">
+                    <div class=row>
+                        <div class=col-12>
+                            <div id=slideshow_text>
+                                <div class=moduletable>
+                                    <h1 class="reveal d-inline-block title text-uppercase">You Decide, We Build</h1>
+                                    <h5 class="reveal text-white text-justify d-flex main_header_subtitle justify-content-between text-uppercase">
+                                        <span>Trust</span>
+                                        <span>·</span>
+                                        <span>Quality</span>
+                                        <span>·</span>
+                                        <span>Relationship</span>
+                                    </h5>
+                                    <div class=custom>
+                                        <p>
+                                            <a href="/company" class="d-inline-block white_btn text-uppercase">About</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id=intro class="position-relative text-center" data-midnight=black>
+                <div class="container position-relative xl-padding">
+                    <div class=row>
+                        <div class="col-12 reveal">
+                            <div class=moduletable>
+                                <div class="custom">
+                                    <p>
+                                        @(await Cofoundry.Template.Region("Description")
+                                            .AllowBlockType<PlainTextDataModel>()
+                                            .InvokeAsync())
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a id=scroll href=#who-we-are class="position-absolute green_text text-uppercase">
+                    Scroll
+                    <svg class=arrow_svg viewBox="0 0 46.9 83.7">
+                        <g transform="translate(46.87) rotate(90)">
+                            <rect x=41 y=-18.5 transform="matrix(2.535182e-06 1 -1 2.535182e-06 65.2489 -18.4681)"
+                                  width=1.6 height=83.7 />
+                            <rect x=59.8 y=8.5 transform="matrix(0.7071 0.7071 -0.7071 0.7071 27.7452 -48.2956)"
+                                  width=24.8 height=1.6 />
+                            <rect x=70.9 y=25.1 transform="matrix(0.7071 0.7071 -0.7071 0.7071 47.5433 -39.7268)"
+                                  width=1.6 height=24.8 />
+                        </g>
+                    </svg>
+                </a>
+            </section>
+        </div>
+        <style>
+            .services_carousel {
+                height: auto;
+            }
+
+            .services_content {
+                height: 100%;
+            }
+
+            .services_carousel .services_item .services_content {
+                background: #00000069;
+                height: 100%;
+            }
+
+                .services_carousel .services_item .services_content .md-title {
+                    position: absolute;
+                    right: 22px;
+                    top: 22px;
+                }
+
+                    .services_carousel .services_item .services_content .md-title a {
+                        color: #f9c001 !important;
+                        letter-spacing: 2px;
+                    }
+        </style>
+        <section id=services class="position-relative padding" data-midnight=black>
+            <div class=container-fluid>
+                <div class=row>
+                    <div class="col-12 reveal">
+                        <div class=moduletable>
+                            <h2 class=title>Our Services</h2>
+                            <div class="row row-h services_carousel" >
+                                @foreach (var serviceInfo in featuredServices)
+                                {
+                                    <div class=col-md-6>
+                                        <div class="services_item position-relative"
+                                             style=background-image:url(@(await Cofoundry.Routing.ImageAssetAsync(serviceInfo.BannerImageId)))
+                                             itemscope itemtype=https://schema.org/Article>
+                                            <div class="services_content text-center">
+                                                <h3 class=md-title>
+
+                                                    <a class="d-block white_text" href="/services/@serviceInfo.Name"
+                                                       itemprop=url>@serviceInfo.Name</a>
+                                                </h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id=projects class="padding-b reveal position-relative" data-midnight=black>
+            <div class=container-fluid>
+                <div class=row>
+                    <div class=col-12>
+                        <div class=moduletable>
+                            <h2 class=title>Project Portfolio</h2>
+                            <div class="projects-module mod-list">
+                                <div class="grid inside" style=position:relative;height:2125.53px>
+                                    <div class="grid-sizer inside"></div>
+                                    @foreach (var project in featuredProjects)
+                                    {
+                                        <div class="grid-item inside project-item_3 project-cat-12"
+                                             data-category=project-cat-12 itemprop=blogPost itemscope
+                                             itemtype=https://schema.org/BlogPosting
+                                             style=position:absolute;left:50%;top:443.8px;display:none>
+                                            <div class=project_inner>
+                                                <div class="project_intro-img position-relative overflow-hidden">
+                                                    <a class="d-block w-100 h-100" href="/projects/@project.Title" title="@project.Name">
+                                                        <div class="blog-image-inner h-100">
+
+                                                            <img class=w-100
+                                                                 src=@(await Cofoundry.Routing.ImageAssetAsync(project.BannerImageAssetId, 480, 480))
+                                                                 alt="Image of @project.Title">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class=project_details>
+                                                    <div class=project_item-title>
+                                                        <h3 class="xs-title small text-uppercase mb-0">
+                                                            <a href="/projects/@project.Title" title="@project.Name">@project.Name</a>
+                                                        </h3>
+                                                        <span class="d-inline-block grey_text">
+                                                            @project.Address
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    }
+                                    <div class=clr></div>
+                                </div>
+                                <div class="row mt-5">
+                                    <div class="col-12 text-lg-right">
+                                        <a class="black_btn d-inline-block text-uppercase" href=/projects
+                                           title="EXPLORE OUR PROJECTS">Explore Our Projects </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <script>
+                                jQuery(function ($) {
+                                    $(window).load(function () {
+                                        var grid = $('.grid').isotope({
+                                            itemSelector: 'none',
+                                            masonry: {
+                                                columnWidth: '.grid-sizer',
+                                            },
+                                            percentPosition: true,
+                                            visibleStyle: {
+                                                transform: 'translateY(0)',
+                                                opacity: 1
+                                            },
+                                            hiddenStyle: {
+                                                transform: 'translateY(100px)',
+                                                opacity: 0
+                                            },
+                                        });
+                                        var filterFns = {};
+                                        var filterValue = ''
+                                        filterValue = filterFns[filterValue] || filterValue;
+                                        grid.isotope({
+                                            filter: filterValue
+                                        });
+                                        $('.categories-filter').on('click', 'button', function () {
+                                            var filterValue = $(this).attr('data-filter');
+                                            filterValue = filterFns[filterValue] || filterValue;
+                                            grid.isotope({
+                                                filter: filterValue
+                                            });
+                                        });
+                                        $('.categories-filter').each(function (i, buttonGroup) {
+                                            var buttonGroup = $(buttonGroup);
+                                            buttonGroup.on('click', 'button', function () {
+                                                buttonGroup.find('.is-checked').removeClass('is-checked');
+                                                $(this).addClass('is-checked');
+                                            });
+                                        });
+                                        grid.imagesLoaded(function () {
+                                            grid.removeClass('are-images-unloaded');
+                                            grid.isotope('option', {
+                                                itemSelector: '.grid-item'
+                                            });
+                                            var items = grid.find('.grid-item');
+                                            grid.isotope('appended', items);
+                                        });
+                                    })
+                                });
+                                jQuery(window).on('load', function () { });
+                                var buttonGroups = document.querySelectorAll('.categories-filter');
+                                for (var i = 0, len = buttonGroups.length; i < len; i++) {
+                                    var buttonGroup = buttonGroups[i];
+                                    radioButtonGroup(buttonGroup);
+                                }
+                                function radioButtonGroup(buttonGroup) {
+                                    buttonGroup.addEventListener('click', function (event) {
+                                        if (!matchesSelector(event.target, 'button')) {
+                                            return;
+                                        }
+                                        buttonGroup.querySelector('.is-checked').classList.remove('is-checked');
+                                        event.target.classList.add('is-checked');
+                                    });
+                                }
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id=certifications
+             class="position-relative home-p position-relative sm-padding white_text green_bg"
+             data-midnight=black>
+            <a id=certifications></a>
+            <div class=container-fluid>
+                <div class=row>
+                    <div class=col-12>
+                        <h2 class="title text-uppercase">Certifications</h2>
+                    </div>
+                </div>
+                <div class="row align-items-start">
+                    <div class="reveal col-12 col-lg-6">
+                        <div class=moduletable>
+                            <div class=custom>
+                                <p>
+                                    <div class="row mb-3 align-items-center">
+                                        <div class="col-3 col-md-2">
+                                            <img alt="Certification Logo" src=/images/certi_logo/iso.png>
+                                        </div>
+                                        <div class="col-9 col-md-10 text-left mt-auto mb-auto">
+                                            <p class=mb-0>Quality Assurance ISO 9001:2015
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reveal col-12 col-lg-6 ps-lg-5">
+                        <div class=moduletable>
+                            <div class=custom>
+                                <p>
+                                    <div class="row mb-3 align-items-center">
+                                        <div class="col-3 col-md-2">
+                                            <img alt="ertification Logo" src=/images/certi_logo/pmp.png>
+                                        </div>
+                                        <div class="col-9 col-md-10 text-left mt-auto mb-auto">
+                                            <p class=mb-0>Project Management Professional (PMP)
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section id=concept class="position-relative xl-padding" data-midnight=default>
+            <div class=container-fluid>
+                <div class=row>
+                    <div class="col-12 text-center">
+                        <h2 class="reveal title white_text text-uppercase">
+                            MY Construction has developed Business
+                            Principles which provide guidelines and expectations for all employees in all business
+                            units. Our overall success is based on our business conduct, which requires the highest
+                            level of integrity when dealing with our customers, suppliers, local communities, and
+                            employees.
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id=project_bottom class="position-relative padding" data-midnight=black>
+            <div class=container-fluid>
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-5">
+                        <div id=project_title>
+                            <h2 class="title title-smaller text-uppercase">
+                                We are ready to partner with you and
+                                develop a strong, long-lasting relationship
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-7 pr-0">
+                        <div id=project_contact class=green_bg>
+                            <div class="row align-items-center">
+                                <div class="col-sm-4 col-12 position-relative">
+                                    <h3 class="sm-title white_text text-uppercase mb-0">
+                                        SEND US<br>YOUR EMAIL
+                                    </h3>
+                                    <svg class=short_arrow_svg viewBox="0 0 31.7 25.2">
+                                        <g transform="translate(34.471 17.142) rotate(150)">
+                                            <rect x=-1.7 y=12.8
+                                                  transform="matrix(0.866 0.5 -0.5 0.866 8.4726 -5.1613)" width=31.2
+                                                  height=0.9 />
+                                            <rect id=Rectangle_33 x=2.8 y=1.7
+                                                  transform="matrix(0.9659 -0.259 0.259 0.9659 -0.2263 2.467)"
+                                                  width=12.9 height=0.9 />
+                                            <rect id=Rectangle_34 x=1.7 y=8.5
+                                                  transform="matrix(0.9659 -0.259 0.259 0.9659 -3.8022 1.0521)"
+                                                  width=0.9 height=12.9 />
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="col-12 col-sm-8 position-relative">
+                                    <div id=submit_svg class=position-absolute></div>
+                                    <a class="sm-title white_text text-uppercase"
+                                       href=mailto:imran@myconstruction.pk
+                                       title="Send us your message at imran@myconstruction.pk">imran@myconstruction.pk</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id=footer class="position-relative home-p" role=contentinfo>
+            <div class=container-fluid>
+                <div class="row align-items-start">
+                    <div class="col-12 col-lg-2 text-center">
+                        <a id=footer_logo class="d-inline-block brand" href="/">
+                            <img src=/images/dark-logo.png alt="MY Construction">
+                        </a>
+                    </div>
+                    <div class="ps-lg-5 col-12 col-lg-5 mb-5 mt-5 mt-lg-0 mb-lg-0 text-center text-lg-start">
+                        <div id=contact_info class=text-uppercase>
+                            <div class=moduletable>
+                                <div class=custom>
+                                    <p>
+                                        <a href=tel:+923353222777 title="Call us +92 335 3222 777">
+                                            &#x2B;92 335
+                                            3222 777
+                                        </a>
+                                    <p>
+                                        <a href=tel:+924235694332 title="Call us +92 42 356 94332">
+                                            &#x2B;92 42 356
+                                            94332
+                                        </a>
+                                    <p>
+                                        <a href=mailto:imran@myconstruction.pk
+                                           title="Send us your message imran@myconstruction.pk">imran@myconstruction.pk</a>
+                                    <p class="mb-0 address">182 DD CCA Phase IV, DHA Lahore, 54810, Pakistan
+                                    <p>
+                                        <a href=//g.page/myconstructionpk target=_blank rel=noopener
+                                           class="mt-2 fz-14px" title="View Map">(View Map)</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-start text-lg-start mb-5 mb-lg-0 col-12 col-lg-4">
+                        <div id=footer_social>
+                            <div class=row>
+                                <div class="col w-auto">
+                                    <a class="d-block inst text-uppercase mb-3" target=_blank
+                                       href="//www.instagram.com/myconstructionpk/" title=Instagram>
+                                        <span class="ico icofont-instagram"></span>
+                                    </a>
+                                </div>
+                                <div class="col w-auto">
+                                    <a class="d-block inst text-uppercase mb-3" target=_blank
+                                       href=//www.facebook.com/myconstructionpk title=Facebook>
+                                        <span class="ico icofont-facebook"></span>
+                                    </a>
+                                </div>
+                                <div class="col w-auto">
+                                    <a class="d-block inst text-uppercase mb-3" target=_blank title=Pinterest>
+                                        <span class="ico icofont-pinterest"></span>
+                                    </a>
+                                </div>
+                                <div class="col w-auto">
+                                    <a class="d-block inst text-uppercase mb-3" target=_blank
+                                       href=//www.youtube.com/channel/UC1LpDkv5DYiBdZFr5NxZsvQ title=Youtube>
+                                        <span class="ico icofont-youtube-play"></span>
+                                    </a>
+                                </div>
+                                <div class="col w-auto">
+                                    <a class="d-block inst text-uppercase mb-3" target=_blank href=# title=Twitter>
+                                        <span class="ico icofont-twitter"></span>
+                                    </a>
+                                </div>
+                                <div class="ms-3 col w-auto">
+                                    <a class="d-block face text-uppercase mb-3" target=_blank title=LinkedIn>
+                                        <span class="ico icofont-linkedin"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-1 justify-content-end d-flex"></div>
+                </div>
+                <div id=copy class="row align-items-end small mb-4">
+                    <div class="col-12 ps-lg-5 col-sm-6 col-lg-5 offset-lg-2">
+                        <p class="copyrights mb-0">
+                            &copy;2023 MY Construction.<br>
+                            <a href=//octacer.com rel=nofollow target=_blank title=Octacer>Developed by Octacer</a>
+                    </div>
+                    <div class="mt-4 mt-sm-0 col-12 col-sm-6 col-lg-4 offeset-lg-1">
+                        <a class=privacy-link href=/privacy-cookies title="Privacy &amp; Cookies Policy">
+                            PRIVACY
+                            &COOKIES POLICY
+                        </a>
+                        <br>
+                        <a class=privacy-link href=/covid-policy title="Covid Policy">COVID POLICY</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="/bundle/main.js"></script>
+        <script type=module src="/js/main.js"></script>
+        <script type=module src=/js/animation.js></script>
+        <script type=module src=/js/home.js></script>
+        <script>
+            if (window.innerWidth >= 768) {
+                const cursor = document.querySelector('.cursor');
+                window.addEventListener('mousemove', (e) => {
+                    cursor.style.left = e.pageX + 'px';
+                    cursor.style.top = e.pageY + 'px';
+                    cursor.setAttribute('data-topOffset', (cursor.offsetTop - scrollY));
+                }
+                )
+                window.addEventListener('scroll', () => {
+                    const fromTop = parseInt(cursor.getAttribute('data-topOffset'));
+                    cursor.style.top = scrollY + fromTop + 'px';
+                }
+                )
+                window.addEventListener('click', () => {
+                    if (cursor.classList.contains('click')) {
+                        cursor.classList.remove('click');
+                        void cursor.offsetWidth;
+                        cursor.classList.add('click');
+                    } else {
+                        cursor.classList.add('click');
+                    }
+                }
+                )
+            }
+            if (window.innerWidth < 768) {
+                jQuery('.cursor').addClass('xl');
+            }
+        </script>
+        <a id=back-top href=#top class="green_text text-uppercase">
+            Back to top
+            <svg class=arrow_svg viewBox="0 0 46.9 83.7">
+                <g transform="translate(46.87) rotate(90)">
+                    <rect x=41 y=-18.5 transform="matrix(2.535182e-06 1 -1 2.535182e-06 65.2489 -18.4681)" width=1.6
+                          height=83.7 />
+                    <rect x=59.8 y=8.5 transform="matrix(0.7071 0.7071 -0.7071 0.7071 27.7452 -48.2956)" width=24.8
+                          height=1.6 />
+                    <rect x=70.9 y=25.1 transform="matrix(0.7071 0.7071 -0.7071 0.7071 47.5433 -39.7268)" width=1.6
+                          height=24.8 />
+                </g>
+            </svg>
+        </a>
+    </div>
+</div>

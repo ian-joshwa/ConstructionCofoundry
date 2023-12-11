@@ -1,0 +1,99 @@
+@media (min-width: 320px) and (max-width: 374.99px) 
+{
+    body {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    #intro .custom p {
+        margin-top: 30px;
+    }
+
+    .home-p {
+        padding-left: 60px;
+        padding-right: 40px;
+    }
+
+    .company-offset {
+        margin-left: 0 !important;
+    }
+
+    #left_bar {
+        max-width: 50px;
+    }
+    .itemid-129 #logo img, .itemid-130 #logo img {
+        height: 70px;
+    }
+    #slideshow.home .title {
+        font-size: 20px !important;
+    }
+    #slideshow.home .main_header_subtitle {
+        width: 14rem;
+        padding-left: 0;
+        padding-right: 7px;
+        font-size: 12px;
+    }
+    #slideshow_img {
+        width: calc(100vw - 110px) !important;
+        aspect-ratio: 1.2;
+        height: auto !important;
+        margin-right: auto !important;
+        left: calc(50% + 25px) !important;
+        transform: translate(-50%, 0) !important;
+    }
+    #who-we-are, #projects, #approach, #services, #blog, .our_philosphy-green, #intro .md-title, #intro .custom, #project_bottom, #main-content {
+        padding-left: 60px;
+        padding-right: 40px;
+    }
+
+    .other-p,
+    .edge-padding {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .home-p {
+        padding-left: 60px;
+        padding-right: 40px;
+    }
+
+        #who-nav, #who-we-are .title, #services .title, #blog .title, #projects .title {
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+        #services .owl-nav {
+            zoom: 60%;
+        }
+        .services_carousel, #services .owl-item {
+            height: 15rem;
+        }
+            .services_carousel .services_item .services_content .md-title {
+                margin: 0;
+                font-size: 18px;            
+            }
+            /*.services_carousel .services_item .services_content .md-title{
+                margin-bottom: 4rem;
+            }*/
+
+    .xl-padding {
+        padding: 20px 0;
+    }
+    #concept {
+        padding: 50px 0;
+        margin-left: 50px;
+        font-size: 20px;
+    }
+        #concept .title {
+            font-size: 17px;
+            line-height: 28px;
+        }
+    .categories-filter .projects_btn {
+        padding: 10px 3px;
+        font-size: 11px;
+        border: 0.5px solid #ccc;
+    }
+    #projects .grid-item .project_details {
+        padding-top: 10px;
+        padding-top: 20px;
+    }
+}

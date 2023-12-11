@@ -1,0 +1,11 @@
+
+@media (min-width: 1024px) and (max-width: 1439.99px) {
+    .itemid-129 #logo img, .itemid-130 #logo img {
+        height: 120px;
+    }
+
+    .company-offset {
+        margin-left: 8.333333% !important;
+    }
+
+}

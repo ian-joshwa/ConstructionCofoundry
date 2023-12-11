@@ -1,0 +1,52 @@
+﻿
+@model MyConstruction.Models.ViewModels.QualityVM
+
+<div class="modal fade" id="addQuality">
+
+	<div class="modal-dialog">
+		<div class="modal-content">
+
+			<div class="modal-header">
+				<h4 class="modal-title">Add Task</h4>
+				<button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+			</div>
+
+			<div class="modal-body">
+
+				<form method="post" action="/Supervisor/Projects/SiteUpdate/SiteQualityUpdate">
+					<div class="border p-4">
+
+						<input id="projectId" asp-for="Quality.ProjectId" type="hidden" value="@Model.Quality.ProjectId"/>
+						<input asp-for="Quality.TaskStatus" type="hidden" />
+						<div class="row mb-3">
+							<label>Work Category</label>
+							<select id="WorkCategoryList" asp-items="@Model.WorkCategoryList" class="form-control">
+								<option selected disabled>-- Select Category --</option>
+							</select>
+						</div>
+
+						<div class="row mb-3">
+							<label asp-for="Quality.TaskId">Task</label>
+							<select id="TaskList" asp-for="Quality.TaskId" class="form-control">
+							</select>
+							<span asp-validation-for="Quality.TaskId" class="text-danger"></span>
+						</div>
+
+						<div class="row mb-3">
+							<label asp-for="Quality.TaskDescription">Description</label>
+							<textarea asp-for="Quality.TaskDescription" class="form-control"></textarea>
+							<span asp-validation-for="Quality.TaskDescription" class="text-danger"></span>
+						</div>
+
+						<button type="submit" data-save="modal" class="btn btn-success">Add</button>
+					</div>
+
+				</form>
+
+
+			</div>
+
+		</div>
+
+	</div>
+</div>

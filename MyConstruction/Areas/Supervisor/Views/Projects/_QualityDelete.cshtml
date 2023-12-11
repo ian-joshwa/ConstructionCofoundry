@@ -1,0 +1,43 @@
+﻿
+@model MyConstruction.Models.ProjectTaskDetail
+
+<div class="modal fade" id="deleteQuality">
+
+	<div class="modal-dialog">
+		<div class="modal-content">
+
+			<div class="modal-header">
+				<h4 class="modal-title">Delete Quality</h4>
+				<button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+			</div>
+
+			<div class="modal-body">
+
+				<form method="post" action="/Supervisor/Quality/Delete">
+					<div class="border p-4">
+						<input type="hidden" asp-for="ProjectId" />
+						<input type="hidden" asp-for="TaskId" />
+						<div class="row mb-3">
+							<label>Task</label>
+							<input class="form-control" value="@Model.TaskName" disabled />
+						</div>
+
+						<div class="row mb-3">
+							<label asp-for="Description">Description</label>
+							<textarea asp-for="Description" class="form-control" disabled>@Model.Description</textarea>
+							<span asp-validation-for="Description" class="text-danger"></span>
+						</div>
+
+						<button type="submit" data-save="modal" class="btn btn-danger">Are You Sure</button>
+						<button data-dismiss="modal" class="btn btn-dark close" type="button">Cancel</button>
+					</div>
+
+				</form>
+
+
+			</div>
+
+		</div>
+
+	</div>
+</div>

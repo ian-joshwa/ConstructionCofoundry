@@ -1,0 +1,12 @@
+C:\Users\Ian Joshwa\source\repos\myconstruction\OctaLib.Plugins.MyConstruction\bin\Debug\net6.0\OctaLib.Plugins.MyConstruction.deps.json
+C:\Users\Ian Joshwa\source\repos\myconstruction\OctaLib.Plugins.MyConstruction\bin\Debug\net6.0\OctaLib.Plugins.MyConstruction.dll
+C:\Users\Ian Joshwa\source\repos\myconstruction\OctaLib.Plugins.MyConstruction\bin\Debug\net6.0\OctaLib.Plugins.MyConstruction.pdb
+C:\Users\Ian Joshwa\source\repos\myconstruction\OctaLib.Plugins.MyConstruction\obj\Debug\net6.0\OctaLib.Plugins.MyConstruction.csproj.AssemblyReference.cache
+C:\Users\Ian Joshwa\source\repos\myconstruction\OctaLib.Plugins.MyConstruction\obj\Debug\net6.0\OctaLib.Plugins.MyConstruction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ian Joshwa\source\repos\myconstruction\OctaLib.Plugins.MyConstruction\obj\Debug\net6.0\OctaLib.Plugins.MyConstruction.AssemblyInfoInputs.cache
+C:\Users\Ian Joshwa\source\repos\myconstruction\OctaLib.Plugins.MyConstruction\obj\Debug\net6.0\OctaLib.Plugins.MyConstruction.AssemblyInfo.cs
+C:\Users\Ian Joshwa\source\repos\myconstruction\OctaLib.Plugins.MyConstruction\obj\Debug\net6.0\OctaLib.Plugins.MyConstruction.csproj.CoreCompileInputs.cache
+C:\Users\Ian Joshwa\source\repos\myconstruction\OctaLib.Plugins.MyConstruction\obj\Debug\net6.0\OctaLib.Plugins.MyConstruction.dll
+C:\Users\Ian Joshwa\source\repos\myconstruction\OctaLib.Plugins.MyConstruction\obj\Debug\net6.0\refint\OctaLib.Plugins.MyConstruction.dll
+C:\Users\Ian Joshwa\source\repos\myconstruction\OctaLib.Plugins.MyConstruction\obj\Debug\net6.0\OctaLib.Plugins.MyConstruction.pdb
+C:\Users\Ian Joshwa\source\repos\myconstruction\OctaLib.Plugins.MyConstruction\obj\Debug\net6.0\ref\OctaLib.Plugins.MyConstruction.dll

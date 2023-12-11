@@ -1,0 +1,49 @@
+﻿@model MyConstruction.Models.ViewModels.MaterialVM
+
+<div class="modal fade" id="editMaterial">
+
+	<div class="modal-dialog">
+		<div class="modal-content">
+
+			<div class="modal-header">
+				<h4 class="modal-title">Delete Material</h4>
+				<button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+			</div>
+
+			<div class="modal-body">
+
+				<form method="post" action="/Supervisor/Material/Delete">
+					<div class="border p-4">
+
+						<input asp-for="Material.ProjectId" type="hidden" />
+						<input asp-for="Material.StockId" type="hidden" />
+						<div class="row mb-3">
+							<label>Stock</label>
+							<input disabled value="@Model.ProjectStockDetail.StockName" class="form-control" />
+						</div>
+
+						<div class="row mb-3">
+							<label asp-for="Material.NewStock">New Stock</label>
+							<input asp-for="Material.NewStock" class="form-control" value="@Model.Material.NewStock" disabled/>
+							<span asp-validation-for="Material.NewStock" class="text-danger"></span>
+						</div>
+
+						<div class="row mb-3">
+							<label asp-for="Material.UsedStock">Used Stock</label>
+							<input asp-for="Material.UsedStock" class="form-control" value="@Model.Material.UsedStock" disabled/>
+							<span asp-validation-for="Material.UsedStock" class="text-danger"></span>
+						</div>
+
+						<button type="submit" data-save="modal" class="btn btn-danger">Are You Sure</button>
+						<button data-dismiss="modal" class="btn btn-dark close" type="button">Cancel</button>
+					</div>
+
+				</form>
+
+
+			</div>
+
+		</div>
+
+	</div>
+</div>

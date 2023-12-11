@@ -1,0 +1,215 @@
+﻿@using Cofoundry.Web;
+@using OctaLib.Plugins.MyConstruction.Common.Enum;
+@inject OctaLib.Plugins.MyConstruction.Domain.ProjectInfoProvider projectInfoProvider;
+
+@model MyConstruction.Models.ViewModels.SiteUpdateVM
+
+@{
+	Layout = "/Views/Shared/_LoginHeader.cshtml";
+	var projectName = projectInfoProvider.GetInfoById(Model.projectId).Name;
+}
+
+@inject ICofoundryHelper Cofoundry
+
+<style>
+
+	.container  {
+		max-width: 100%;
+	}
+
+	.Material-card-header {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		gap: 8px;
+	}
+
+	.description {
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		font-size: 14px;
+		line-height: 1.1rem;
+	}
+
+	.read-more {
+		background: none;
+		outline: none;
+		border: none;
+		font-size: 14px;
+		font-weight: bold;
+		color: #666;
+		transition: .3s all;
+	}
+
+	.read-more:hover {
+		color: #999;
+	}
+
+	.badge {
+		padding: 4px 8px;
+		border-radius: 10px;
+		font-size: 10px;
+		font-weight: bold;
+		color: white;
+		letter-spacing: .03rem;
+		cursor: pointer;
+	}
+
+	.text-size {
+		font-size: 15px;
+	}
+
+	.card {
+		width: calc(100% - 2rem) !important;
+		margin: 0 1rem;
+	}
+
+	.card-body {
+		padding: 5px 14px !important;
+	}
+
+	.card-title {
+		font-size: 18px;
+		font-weight: bold;
+		margin-bottom: 0 !important;
+	}
+
+</style>
+
+
+<div id="ModalPlaceHolder"></div>
+<div id="MaterialPopup"></div>
+<div id="QualityPopup"></div>
+
+
+<div class="row mt-3 mb-3 ps-4">
+	<div class="col-12">
+		<h2>Project: @projectName</h2>
+	</div>
+</div>
+
+<div class="row mb-5">
+
+
+	<div class="col-4" style="border-right:1px solid #ccc;min-height:500px;">
+		<div class="row">
+			<div class="col-6 ps-5"><h4>Team</h4></div>
+			<div class="col-6 pe-5">
+				@if (Model.TeamShow)
+				{
+					<button type="button" class="btn btn-primary" onclick="AddTeam(`/Supervisor/Projects/SiteUpdate/SiteTeamUpdate/${@Model.projectId}`)" style="float: right;">
+						Add
+					</button>
+				}
+			</div>
+		</div>
+		@foreach (var team in Model.Teams)
+		{
+
+			<div class="row mt-3">
+				<div class="card p-0">
+					<div class="card-body pt-2 pb-2 ps-3 pe-3">
+						<h5 class="card-title">@team.ContractorName ( @team.WorkCategory )</h5>
+						<p class="card-text m-0 text-size" style="float: left;">Men: @team.NoOfMen</p>					
+						<div style="float: right;">
+							@if(team.ImageUrl != null)
+							{
+								<a data-lightbox="teamImage" href="@team.ImageUrl" style="cursor: pointer;"><i class="far fa-image" style="color: #007bff;"></i></a>
+							}
+							<a onclick="TeamEdit(`/Supervisor/Team/Edit?projectId=${@team.ProjectId}&workCategoryId=${@team.WorkCategoryId}&contractorId=${@team.ContractorId}`)" style="cursor: pointer;"><i class="fas fa-edit" style="color: #007bff;"></i></a>
+							<a onclick="TeamDelete(`/Supervisor/Team/Delete?projectId=${@team.ProjectId}&workCategoryId=${@team.WorkCategoryId}&contractorId=${@team.ContractorId}`)" style="cursor: pointer;"><i class="fas fa-trash-alt" style="color: #dc3545;"></i></a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		}
+	</div>
+
+
+	<div class="col-4" style="border-right:1px solid #ccc;min-height:500px;">
+		<div class="row">
+			<div class="col-6 ps-5"><h4>Material</h4></div>
+			<div class="col-6 pe-5">
+				@if (Model.MaterialShow)
+				{
+					<button type="button" class="btn btn-primary" onclick="AddMaterial(`/Supervisor/Projects/SiteUpdate/SiteMaterialUpdate/${@Model.projectId}`)" style="float: right;">
+						Add
+					</button>
+				}
+			</div>
+		</div>
+		@foreach (var material in Model.Materials)
+		{
+
+			<div class="row mt-3">
+				<div class="card p-0" style="width: 20rem;margin: auto;">
+					<div class="card-body pt-2 pb-2 ps-3 pe-3">
+						<div class="row">
+							<h5 class="card-title col-6">Stock: @material.StockName</h5>
+							<div class="col-6 Material-card-header">
+								<a onclick="EditMaterial(`/Supervisor/Material/Edit?projectId=${@material.ProjectId}&stockId=${@material.StockId}`)" style="cursor: pointer;"><i class="fas fa-edit" style="color: #007bff;"></i></a>
+								<a onclick="DeleteMaterial(`/Supervisor/Material/Delete?projectId=${@material.ProjectId}&stockId=${@material.StockId}`)" style="cursor: pointer;"><i class="fas fa-trash-alt" style="color: #dc3545;"></i></a>
+							</div>
+						</div>
+						<div class="row">
+							<p class="card-text m-0 col-6 text-size">New Stock: @material.NewStock</p>
+							<p class="card-text m-0 col-6 text-size">Used Stock: @material.UsedStock</p>
+						</div>
+						
+
+					</div>
+				</div>
+			</div>
+
+		}
+	</div>
+
+
+	<div class="col-4">
+		<div class="row">
+			<div class="col-6 ps-5"><h4>Quality</h4></div>
+			<div class="col-6 pe-5">
+				<a class="btn btn-primary" onclick="AddQuality(`/Supervisor/Projects/SiteUpdate/SiteQualityUpdate/${@Model.projectId}`)" style="float: right;">Add Task</a>
+			</div>
+		</div>
+		@foreach (var task in Model.ProjectTasks)
+		{
+			<div class="row mt-3">
+				<div class="card" style="width: 20rem;padding: 0;margin: auto;">
+					<div class="card-body">
+						<div style="display: flex; align-items: center; margin-bottom: 5px;">
+							<h5 class="card-title col-9">@task.TaskName</h5>
+							<div class="col-3" style="display: flex; align-items: center; justify-content: flex-end;">
+								<p class="m-0 badge" onclick="UpdateStatus(`/Supervisor/Quality/UpdateStatus?projectId=${@task.ProjectId}&taskId=${@task.TaskId}`)">@task.Status</p>
+							</div>
+						</div>
+						<p class="card-text description mb-2">@task.Description</p>
+						<div style="display: flex; align-items: center;">
+							<div class="col-6">
+								<button class="read-more p-0" onclick="TaskReadMore(`/Supervisor/Quality/ReadMore?projectId=${@task.ProjectId}&taskId=${@task.TaskId}`)" style="display: flex; justify-content: flex-start;">Read More</button>
+							</div>
+							<div class="col-6" style="display: flex; justify-content: flex-end; gap: 10px;">
+								<i onclick="QualityEdit(`/Supervisor/Quality/Edit?projectId=${@task.ProjectId}&taskId=${@task.TaskId}`)" class="fas fa-edit" style="cursor: pointer; color: #007bff;"></i>
+								<i onclick="QualityDelete(`/Supervisor/Quality/Delete?projectId=${@task.ProjectId}&taskId=${@task.TaskId}`)" class="fas fa-trash-alt" style="cursor: pointer; color: #dc3545;"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		}
+	</div>
+
+</div>
+
+
+@section scripts{
+
+	<script src="/js/SiteUpdate.js"></script>
+
+
+}

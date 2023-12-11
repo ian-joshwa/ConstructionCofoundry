@@ -1,0 +1,18 @@
+﻿@using MyConstruction.Models;
+@model RegisterViewModel
+@{
+    ViewData["Title"] = "Verify Account";
+}
+
+<div class="row justify-content-center mt-5">
+    <div class="col col-8">
+
+        <h1 class="mb-4">Verify Account</h1>
+        <p>
+            Thank you for verifying your account. You can now sign in using the link below:
+        </p>
+        <p>
+            <a asp-controller="AccountAuth" asp-action="Index">Sign in</a>
+        </p>
+    </div>
+</div>

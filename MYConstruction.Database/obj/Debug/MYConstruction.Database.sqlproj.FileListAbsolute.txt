@@ -1,0 +1,10 @@
+C:\Users\Ian Joshwa\source\repos\myconstruction\MYConstruction.Database\bin\Debug\MYConstruction.Database.dacpac
+C:\Users\Ian Joshwa\source\repos\myconstruction\MYConstruction.Database\bin\Debug\MYConstruction.Database.dll
+C:\Users\Ian Joshwa\source\repos\myconstruction\MYConstruction.Database\bin\Debug\MYConstruction.Database.pdb
+C:\Users\Ian Joshwa\source\repos\myconstruction\MYConstruction.Database\obj\Debug\MYConstruction.Database.sqlproj.AssemblyReference.cache
+C:\Users\Ian Joshwa\source\repos\myconstruction\MYConstruction.Database\obj\Debug\Model.xml
+C:\Users\Ian Joshwa\source\repos\myconstruction\MYConstruction.Database\obj\Debug\refactor.xml
+C:\Users\Ian Joshwa\source\repos\myconstruction\MYConstruction.Database\obj\Debug\postdeploy.sql
+C:\Users\Ian Joshwa\source\repos\myconstruction\MYConstruction.Database\obj\Debug\predeploy.sql
+C:\Users\Ian Joshwa\source\repos\myconstruction\MYConstruction.Database\obj\Debug\MYConstruction.Database.dll
+C:\Users\Ian Joshwa\source\repos\myconstruction\MYConstruction.Database\obj\Debug\MYConstruction.Database.pdb

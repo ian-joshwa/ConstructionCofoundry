@@ -1,0 +1,46 @@
+﻿
+@model MyConstruction.Models.ViewModels.UpdateStatusVM
+
+
+<div class="modal fade">
+
+	<div class="modal-dialog">
+		<div class="modal-content">
+
+			<div class="modal-header">
+				<h4 class="modal-title">Update Status</h4>
+				<button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+			</div>
+
+			<div class="modal-body">
+
+				<form method="post" action="/Supervisor/Quality/UpdateStatus">
+					<div class="border p-4">
+						<input type="hidden" asp-for="TaskDetail.ProjectId" />
+						<input type="hidden" asp-for="TaskDetail.TaskId" />
+						<input asp-for="TaskDetail.Description" type="hidden" />
+						<div class="row mb-3">
+							<label>Task</label>
+							<input class="form-control" value="@Model.TaskDetail.TaskName" disabled />
+						</div>
+
+						<div class="row mb-3">
+							<label asp-for="TaskDetail.Status">Status</label>
+							<select asp-for="TaskDetail.Status" asp-items="Model.StatusList" class="form-control">
+
+							</select>
+							<span asp-validation-for="TaskDetail.Status" class="text-danger"></span>
+						</div>
+
+						<button type="submit" data-save="modal" class="btn btn-success">Update</button>
+					</div>
+
+				</form>
+
+
+			</div>
+
+		</div>
+
+	</div>
+</div>

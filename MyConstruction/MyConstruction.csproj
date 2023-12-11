@@ -1,0 +1,56 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+	  <MvcRazorExcludeViewFilesFromPublish>false</MvcRazorExcludeViewFilesFromPublish>
+	  <MvcRazorExcludeRefAssembliesFromPublish>false</MvcRazorExcludeRefAssembliesFromPublish>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\js\SiteUpdate.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\js\SiteUpdate.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Cofoundry.Plugins.Imaging.SkiaSharp" Version="0.5.0" />
+    <PackageReference Include="Cofoundry.Web.Admin" Version="0.11.4" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OctaLib.Plugins.MyConstruction\OctaLib.Plugins.MyConstruction.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Supervisor\Data\" />
+    <Folder Include="wwwroot\TeamImages\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\js\SiteUpdate.js" />
+    <None Include="wwwroot\lightbox2\.editorconfig" />
+    <None Include="wwwroot\lightbox2\.github\ISSUE_TEMPLATE.md" />
+    <None Include="wwwroot\lightbox2\.github\PULL_REQUEST_TEMPLATE.md" />
+    <None Include="wwwroot\lightbox2\.gitignore" />
+    <None Include="wwwroot\lightbox2\.jscsrc" />
+    <None Include="wwwroot\lightbox2\.jshintrc" />
+    <None Include="wwwroot\lightbox2\DEPLOY.md" />
+    <None Include="wwwroot\lightbox2\dist\js\lightbox-plus-jquery.js" />
+    <None Include="wwwroot\lightbox2\dist\js\lightbox-plus-jquery.min.js" />
+    <None Include="wwwroot\lightbox2\dist\js\lightbox-plus-jquery.min.map" />
+    <None Include="wwwroot\lightbox2\dist\js\lightbox.js" />
+    <None Include="wwwroot\lightbox2\dist\js\lightbox.min.js" />
+    <None Include="wwwroot\lightbox2\dist\js\lightbox.min.map" />
+    <None Include="wwwroot\lightbox2\Gruntfile.js" />
+    <None Include="wwwroot\lightbox2\LICENSE" />
+    <None Include="wwwroot\lightbox2\README.md" />
+    <None Include="wwwroot\lightbox2\ROADMAP.md" />
+    <None Include="wwwroot\lightbox2\src\js\lightbox.js" />
+  </ItemGroup>
+
+</Project>

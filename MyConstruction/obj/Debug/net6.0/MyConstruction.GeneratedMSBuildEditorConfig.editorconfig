@@ -1,0 +1,165 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MyConstruction
+build_property.RootNamespace = MyConstruction
+build_property.ProjectDir = C:\Users\Ian Joshwa\source\repos\myconstruction\MyConstruction\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\Ian Joshwa\source\repos\myconstruction\MyConstruction
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Areas/Supervisor/Views/Projects/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwZXJ2aXNvclxWaWV3c1xQcm9qZWN0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Areas/Supervisor/Views/Projects/SiteUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwZXJ2aXNvclxWaWV3c1xQcm9qZWN0c1xTaXRlVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Areas/Supervisor/Views/Projects/_AddMaterial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwZXJ2aXNvclxWaWV3c1xQcm9qZWN0c1xfQWRkTWF0ZXJpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Areas/Supervisor/Views/Projects/_AddQuality.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwZXJ2aXNvclxWaWV3c1xQcm9qZWN0c1xfQWRkUXVhbGl0eS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Areas/Supervisor/Views/Projects/_MaterialDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwZXJ2aXNvclxWaWV3c1xQcm9qZWN0c1xfTWF0ZXJpYWxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Areas/Supervisor/Views/Projects/_MaterialEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwZXJ2aXNvclxWaWV3c1xQcm9qZWN0c1xfTWF0ZXJpYWxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Areas/Supervisor/Views/Projects/_QualityDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwZXJ2aXNvclxWaWV3c1xQcm9qZWN0c1xfUXVhbGl0eURlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Areas/Supervisor/Views/Projects/_QualityDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwZXJ2aXNvclxWaWV3c1xQcm9qZWN0c1xfUXVhbGl0eURldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Areas/Supervisor/Views/Projects/_QualityEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwZXJ2aXNvclxWaWV3c1xQcm9qZWN0c1xfUXVhbGl0eUVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Areas/Supervisor/Views/Projects/_TeamDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwZXJ2aXNvclxWaWV3c1xQcm9qZWN0c1xfVGVhbURlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Areas/Supervisor/Views/Projects/_TeamEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwZXJ2aXNvclxWaWV3c1xQcm9qZWN0c1xfVGVhbUVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Areas/Supervisor/Views/Projects/_TeamModelPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwZXJ2aXNvclxWaWV3c1xQcm9qZWN0c1xfVGVhbU1vZGVsUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Areas/Supervisor/Views/Projects/_UpdateStatus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwZXJ2aXNvclxWaWV3c1xQcm9qZWN0c1xfVXBkYXRlU3RhdHVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Areas/Supervisor/Views/SupervisorHome/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwZXJ2aXNvclxWaWV3c1xTdXBlcnZpc29ySG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Areas/Supervisor/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3VwZXJ2aXNvclxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Views/AccountAuth/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudEF1dGhcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Views/AccountAuth/SignOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudEF1dGhcU2lnbk91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Views/AccountAuth/VerificationRequired.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudEF1dGhcVmVyaWZpY2F0aW9uUmVxdWlyZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Views/AccountRegistration/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFJlZ2lzdHJhdGlvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Views/AccountRegistration/RegistrationSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFJlZ2lzdHJhdGlvblxSZWdpc3RyYXRpb25TdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Views/AccountRegistration/ResendVerification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFJlZ2lzdHJhdGlvblxSZXNlbmRWZXJpZmljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Views/AccountRegistration/ResendVerificationSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFJlZ2lzdHJhdGlvblxSZXNlbmRWZXJpZmljYXRpb25TdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Views/AccountRegistration/Verify.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFJlZ2lzdHJhdGlvblxWZXJpZnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Views/AccountRegistration/VerifySuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFJlZ2lzdHJhdGlvblxWZXJpZnlTdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Views/Home/ProjectDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9qZWN0RGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Views/Home/ServiceDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZXJ2aWNlRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Views/PageTemplates/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZVRlbXBsYXRlc1xBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Views/PageTemplates/Approach.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZVRlbXBsYXRlc1xBcHByb2FjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Views/PageTemplates/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZVRlbXBsYXRlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Views/PageTemplates/Projects.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZVRlbXBsYXRlc1xQcm9qZWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Views/PageTemplates/Services.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZVRlbXBsYXRlc1xTZXJ2aWNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Views/Shared/_LoginHeader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpbkhlYWRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian Joshwa/source/repos/myconstruction/MyConstruction/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ubhjmz3ip2

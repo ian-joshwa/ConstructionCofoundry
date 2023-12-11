@@ -1,0 +1,52 @@
+﻿@model MyConstruction.Models.ViewModels.MaterialVM
+
+
+
+<div class="modal fade" id="addMaterial">
+
+	<div class="modal-dialog">
+		<div class="modal-content">
+
+			<div class="modal-header">
+				<h4 class="modal-title">Add Material</h4>
+				<button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+			</div>
+
+			<div class="modal-body">
+
+				<form method="post" action="/Supervisor/Projects/SiteUpdate/SiteMaterialUpdate">
+					<div class="border p-4">
+
+						<input asp-for="Material.ProjectId" type="hidden" />
+						<div class="row mb-3">
+							<label asp-for="Material.StockId">Materials</label>
+							<select asp-for="Material.StockId" asp-items="@Model.StocksList" class="form-control">
+								<option selected disabled>-- Select Stock --</option>
+							</select>
+							<span asp-validation-for="Material.StockId" class="text-danger"></span>
+						</div>
+
+						<div class="row mb-3">
+							<label asp-for="Material.NewStock">New Stock</label>
+							<input asp-for="Material.NewStock" class="form-control"/>
+							<span asp-validation-for="Material.NewStock" class="text-danger"></span>
+						</div>
+
+						<div class="row mb-3">
+							<label asp-for="Material.UsedStock">Used Stock</label>
+							<input id="UsedStock" asp-for="Material.UsedStock" class="form-control"/>
+							<span asp-validation-for="Material.UsedStock" class="text-danger"></span>
+						</div>
+
+						<button type="submit" data-save="modal" class="btn btn-success">Add</button>
+					</div>
+
+				</form>
+
+
+			</div>
+
+		</div>
+
+	</div>
+</div>

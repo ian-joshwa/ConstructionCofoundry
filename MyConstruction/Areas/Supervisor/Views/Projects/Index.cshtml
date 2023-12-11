@@ -1,0 +1,53 @@
+﻿@using Cofoundry.Core;
+@using Cofoundry.Web;
+@using OctaLib.Plugins.MyConstruction.Infrastructure.UserAreas;
+@inject OctaLib.Plugins.MyConstruction.Domain.ProjectInfoProvider projectInfoProvider;
+@inject ICofoundryHelper Cofoundry
+
+@{
+    Layout = "/Views/Shared/_LoginHeader.cshtml";
+
+    string title = null;
+
+    var metaDataModel = Model as IPageWithMetaDataViewModel;
+    if (metaDataModel != null)
+    {
+        title = metaDataModel.PageTitle;
+    }
+
+    title = StringHelper.FirstNonEmpty(title, ViewBag.Title, "Authentication Sample");
+    var member = await Cofoundry.CurrentUser.GetAsync(AccountUserArea.Code);
+    var projects = projectInfoProvider.GetProjects().Where(x => x.Users.Any(user => user.Username == member.User.Username)).ToList();
+    ViewData["Title"] = title;
+}
+
+
+<div class="text-center mb-5">
+    <h1 class="mb-1">Welcome, @Model.DisplayName</h1>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <table id="projectTable" class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Project Name</th>
+                        <th>Address</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+
+    </div>
+</div>
+
+
+@section scripts{
+
+    <script src="/js/SupervisorProjects.js"></script>
+
+
+}

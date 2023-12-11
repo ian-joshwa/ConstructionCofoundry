@@ -1,0 +1,98 @@
+﻿@using Cofoundry.Web;
+@using OctaLib.Plugins.MyConstruction.Infrastructure.UserAreas;
+
+@inject ICofoundryHelper Cofoundry
+
+@{
+    var member = await Cofoundry.CurrentUser.GetAsync(AccountUserArea.Code);
+}
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name=viewport content="width=device-width, initial-scale=1.0">
+    <meta property=og:site_name content="MY Construction | Construction Company DHA Lahore">
+    <meta name=twitter:image content=/images/dark-logo.png>
+    <meta property=og:image content=/images/dark-logo.png>
+    <link rel=preconnect href=//fonts.googleapis.com/>
+    <link rel=preconnect href=//fonts.gstatic.com crossorigin=anonymous/>
+    <link href="//fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+          rel=stylesheet/>
+    <meta charset=utf-8>
+    <base href="/">
+    <meta name=keywords content="construction company,construction lahore,construction dha">
+    <meta name=description content="Construction is at the core of what we do at MY Construction .
+Extensive experience, strong technical background, and reliability are some of the key elements that describe who we are. Driven by our commitment to excellence, our highly qualified team brings a broad range of construction and renovation projects to life.
+we guarantee robust implementation of any construction project,
+regardless of scope or scale.">
+    <title>MY Construction | Construction Company DHA Lahore</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="dist/css/lightbox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+
+</head>
+
+
+
+
+
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">MY Construction</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item" style="list-style:none;">
+                        <a class="nav-link text-dark" href="/Supervisor">Dashboard</a>
+                    </li>
+                    <li class="nav-item" style="list-style:none;">
+                        <a class="nav-link text-dark" href="/Supervisor/Projects">Projects</a>
+                    </li>
+                </ul>
+                @if (member.IsSignedIn)
+                {
+                    <li class="nav-item" style="list-style:none;">
+                        <form asp-controller="AccountAuth" asp-action="SignOut">
+                            <button type="submit" class="btn btn-link nav-link">Sign Out</button>
+                        </form>
+                    </li>
+                }
+                else
+                {
+                    <li class="nav-item" style="list-style:none;">
+                        <a class="nav-link" asp-controller="AccountAuth" asp-action="Index">Sign In</a>
+                    </li>
+                }
+            </div>
+        </div>
+    </nav>
+</header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="dist/js/lightbox.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="//cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+

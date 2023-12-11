@@ -1,0 +1,70 @@
+﻿@model MyConstruction.Models.ViewModels.TeamVM
+
+<div class="modal fade">
+
+	<div class="modal-dialog">
+		<div class="modal-content">
+
+			<div class="modal-header">
+				<h4 class="modal-title">Edit Team</h4>
+				<button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+			</div>
+
+			<div class="modal-body">
+
+				<form method="post" action="/Supervisor/Team/Edit" enctype="multipart/form-data">
+					<div class="border p-4">
+
+						<input asp-for="Team.ProjectId" type="hidden" />
+						<input asp-for="Team.WorkCategoryId" type="hidden" />
+						<input asp-for="Team.ContractorId" type="hidden" />
+						<input asp-for="Team.DateKey" type="hidden" />
+
+						<div class="row mb-3">
+							<label>Work Categories</label>
+							<input class="form-control" value="@Model.TeamDetail.WorkCategory" disabled />
+						</div>
+
+						<div class="row mb-3">
+							<label>Contactors</label>
+							<input class="form-control" value="@Model.TeamDetail.ContractorName" disabled />
+						</div>
+
+						<div class="row mb-3">
+							<label asp-for="Team.NoOfMen">Number Of Men</label>
+							<input asp-for="Team.NoOfMen" class="form-control" />
+							<span asp-validation-for="Team.NoOfMen" class="text-danger"></span>
+						</div>
+
+						<div class="row mb-3">
+							@if (Model.Team.ImageUrl != null)
+							{
+								<label>Team Image</label>
+								<img src="@Model.Team.ImageUrl" style="width: 200px; height: 200px; object-fit= cover;" />
+							}
+							else
+							{
+								<label>No Image Found.</label>
+							}
+						</div>
+
+						<div class="row mb-3">
+							<label asp-for="Team.ImageUrl">Update Team Image</label>
+							<input type="file" name="file" asp-for="Team.ImageUrl" class="form-control" />
+							<span asp-validation-for="Team.ImageUrl" class="text-danger"></span>
+						</div>
+
+
+						<button type="submit" data-save="modal" class="btn btn-success">Update</button>
+					</div>
+
+				</form>
+
+
+			</div>
+
+		</div>
+
+	</div>
+</div>
+

@@ -1,0 +1,63 @@
+﻿@model MyConstruction.Models.ViewModels.TeamVM
+
+<div class="modal fade" id="addTeam">
+
+	<div class="modal-dialog">
+		<div class="modal-content">
+
+			<div class="modal-header">
+				<h4 class="modal-title">Add Team</h4>
+				<button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+			</div>
+
+			<div class="modal-body">
+
+				<form method="post"  action="/Supervisor/Projects/SiteUpdate/SiteTeamUpdate" enctype="multipart/form-data">
+					<div class="border p-4">
+
+						<input asp-for="Team.ProjectId" type="hidden" id="projectId" value="@Model.Team.ProjectId"/>
+						<div class="row mb-3">
+							<label asp-for="Team.WorkCategoryId">Work Categories</label>
+							<select id="workCategoryList" asp-for="Team.WorkCategoryId" asp-items="@Model.WorkCategories" class="form-control">
+								<option selected disabled>-- Select Work Category --</option>
+							</select>
+							<span asp-validation-for="Team.WorkCategoryId" class="text-danger"></span>
+						</div>
+
+						<div class="row mb-3">
+							<label asp-for="Team.ContractorId">Contactors</label>
+							<select id="ContractorsList" asp-for="Team.ContractorId" class="form-control">
+							</select>
+							<span asp-validation-for="Team.ContractorId" class="text-danger"></span>
+						</div>
+
+						<div class="row mb-3">
+							<label asp-for="Team.NoOfMen">Number Of Men</label>
+							<input asp-for="Team.NoOfMen" class="form-control" />
+							<span asp-validation-for="Team.NoOfMen" class="text-danger"></span>
+						</div>
+
+						<div class="row mb-3">
+							<label>Team Image</label>
+							<input type="file" name="file" class="form-control" />
+						</div>
+
+						<button type="submit" data-save="modal" class="btn btn-success">Add</button>
+					</div>
+
+				</form>
+
+
+			</div>
+
+		</div>
+
+	</div>
+</div>
+
+
+@section scripts{
+
+	<partial name="_ValidationScriptsPartial.cshtml"/>
+
+}

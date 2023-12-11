@@ -1,0 +1,408 @@
+﻿@inject OctaLib.Plugins.MyConstruction.Domain.ServiceInfoDataProvider serviceInfoProvider;
+
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+    var servicesProvider = serviceInfoProvider.GetServices();
+}
+
+<style>
+    #header {
+        height: 180px;
+    }
+</style>
+
+
+<div id="main_menu" class="position-fixed vw-100 vh-md-100">
+    <div id="close_btn">
+        <a class="close-link" title="Close Menu">
+            <span class="d-block svg_icon">
+                <svg viewBox="0 0 35.9 35.9">
+                    <g transform="translate(-844.031 -82.594) rotate(-45)">
+                        <rect x="536.7" y="659.6"
+                              transform="matrix(-1 2.535182e-06 -2.535182e-06 -1 1076.8354 1363.3412)" width="3.4"
+                              height="44.2"></rect>
+                        <rect x="544.9" y="678.7"
+                              transform="matrix(-1 2.535182e-06 -2.535182e-06 -1 1106.3293 1360.3932)" width="16.5"
+                              height="2.9"></rect>
+                        <rect x="515.4" y="678.7"
+                              transform="matrix(-1 2.535182e-06 -2.535182e-06 -1 1047.3413 1360.3912)" width="16.5"
+                              height="2.9"></rect>
+                    </g>
+                </svg>
+            </span>
+        </a>
+    </div>
+    <div class="row vh-md-100">
+        <div class="logoandcontact-col col-12 col-lg-4 position-relative">
+            <div class="row vh-md-100">
+                <div class="appear col-12 col-md-12 col-lg-4" style="opacity: 0; transform: translate(0px, 100px);">
+                    <div id="menu_logo" class="position-md-absolute one">
+                        <a class="d-inline-block" href="/">
+                            <img src="/images/logo.png" alt="MY Construction">
+                        </a>
+                    </div>
+                </div>
+                <div class="d-none d-lg-block appear col-12 col-md-12 col-lg-8"
+                     style="opacity: 0; transform: translate(0px, 100px);">
+                    <div id="menu_contact" class="position-md-absolute two">
+                        <div class="custom">
+                            <p>
+                                <a href="tel:+923353222777" class="white_text" title="Call us +92 335 3222 777">
+                                    +92 335 3222 777
+                                </a>
+                            </p>
+                            <p>
+                                <a href="tel:+924235694332" class="white_text" title="Call us +92 42 356 94332">
+                                    +92 42 356 94332
+                                </a>
+                            </p>
+                            <p>
+                                <a href="mailto:imran@myconstruction.pk" class="white_text"
+                                   title="Send us your message imran@myconstruction.pk">
+                                    imran@myconstruction.pk
+                                </a>
+                            </p>
+                            <p class="white_text mb-0 address">
+                                182 DD CCA Phase IV, DHA Lahore, 54810, Pakistan <br>
+                                <a href="//g.page/myconstructionpk" target="_blank" rel="noopener"
+                                   class="white_text fz-14px" title="View Map">(View Map)</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-col appear col-12 col-lg-7 position-relative"
+             style="opacity: 0; transform: translate(0px, 100px);">
+            <nav class="navigation three" role="navigation">
+                <ul class="nav menu mod-list">
+                    <li class="appear-x item-126">
+                        <a href="/company"
+                           class="title text-uppercase white_text">Company</a>
+                    </li>
+                    <li class="appear-x item-128">
+                        <a href="/approach"
+                           class="title text-uppercase white_text">Approach</a>
+                    </li>
+                    <li class="appear-x item-127">
+                        <a href="/services"
+                           class="title text-uppercase white_text">Services</a>
+                    </li>
+                    <li class="appear-x item-136">
+                        <a href="/projects"
+                           class="title text-uppercase white_text">Projects</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="menucontact-col d-lg-none appear col-12" style="opacity: 0; transform: translate(0px, 100px);">
+            <div id="menu_contact" class="position-md-absolute two">
+                <div class="custom">
+                    <a href="mailto:imran@myconstruction.pk" class="white_text"
+                       title="Send us your message imran@myconstruction.pk"> imran@myconstruction.pk </a>
+                    <p>
+                        <a href="tel:+923353222777" class="white_text" title="Call us +92 335 3222 777">
+                            +92 335
+                            3222 777
+                        </a>
+                    </p>
+                    <p>
+                        <a href="tel:+924235694332" class="white_text" title="Call us +92 42 356 94332">
+                            +92 42 356
+                            94332
+                        </a>
+                    </p>
+                    <p class="white_text mb-0">
+                        182 DD CCA Phase IV, DHA Lahore, 54810, Pakistan <br> <a href="//g.page/myconstructionpk" target="_blank" rel="noopener"
+                                                                                 class="white_text fz-14px" title="View MY Construction on Map">(View Map)</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="appear social-col col-12 col-lg-1 position-relative"
+             style="opacity: 0; transform: translate(0px, 100px);">
+            <div id="menu_social" class="position-md-absolute four">
+                <a class="d-lg-block inst text-uppercase white_text" target="_blank"
+                   href="//www.instagram.com/myconstructionpk/"><span class="ico icofont-instagram"></span></a> <a class="d-lg-block face text-uppercase white_text" target="_blank"
+                                                                                                                   href="//www.facebook.com/myconstructionpk"><span class="ico icofont-facebook"></span></a> <a class="d-lg-block twit text-uppercase white_text" target="_blank">
+                    <span class="ico icofont-pinterest"></span>
+                </a> <a class="d-lg-block yout text-uppercase white_text" target="_blank"
+                        href="//www.youtube.com/channel/UC1LpDkv5DYiBdZFr5NxZsvQ">
+                    <span class="ico icofont-youtube-play"></span>
+                </a> <a class="d-lg-block twit text-uppercase white_text" target="_blank" href="#">
+                    <span class="ico icofont-twitter"></span>
+                </a> <a class="d-lg-block linkd text-uppercase white_text" target="_blank">
+                    <span class="ico icofont-linkedin"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="top" class="body position-relative h-100">
+    <div class="inner-body position-relative h-100 overflow-hidden">
+        <div class="cursor" style="left: 404px; top: 965px;" data-topoffset="565"></div>
+        <div id="stripes">
+            <div class="container-fluid">
+                <div class="row">
+                    <span class="col-2 position-absolute stripe one d-block"></span> <span class="col-4 position-absolute stripe two d-block"></span> <span class="col-4 position-absolute stripe three d-block"></span> <span class="col-1 position-absolute stripe four d-block"></span>
+                </div>
+            </div>
+        </div>
+        <div id="left_bar" class="position-absolute">
+            <div id="menu_btn" class="fixedmenu"
+                 style="position: fixed; top: 0px; left: 0px; right: 0px; overflow: hidden; height: 158px;">
+                <div class="midnightHeader default"
+                     style="position: absolute; overflow: hidden; inset: 0px; transform: translateY(110%) translateZ(0px);">
+                    <div class="midnightInner"
+                         style="position: absolute; overflow: auto; inset: 0px; transform: translateY(-110%) translateZ(0px);">
+                        <a class="d-block" title="Open Menu">
+                            <span class="d-block svg_icon">
+                                <svg viewBox="0 0 46.5 44.7">
+                                    <g transform="translate(-515.167 -659.337)">
+                                        <rect x="536.7" y="659.6" width="3.4" height="44.2"></rect>
+                                        <rect x="544.9" y="678.7" width="16.5" height="2.9"></rect>
+                                        <rect x="515.4" y="678.7" width="16.5" height="2.9"></rect>
+                                    </g>
+                                </svg>
+                            </span> <span class="d-block menu_text">MENU</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="midnightHeader black"
+                     style="position: absolute; overflow: hidden; inset: 0px; transform: translateY(0%) translateZ(0px);">
+                    <div class="midnightInner"
+                         style="position: absolute; overflow: auto; inset: 0px; transform: translateY(0%) translateZ(0px);">
+                        <a class="d-block" title="Open Menu">
+                            <span class="d-block svg_icon">
+                                <svg viewBox="0 0 46.5 44.7">
+                                    <g transform="translate(-515.167 -659.337)">
+                                        <rect x="536.7" y="659.6" width="3.4" height="44.2"></rect>
+                                        <rect x="544.9" y="678.7" width="16.5" height="2.9"></rect>
+                                        <rect x="515.4" y="678.7" width="16.5" height="2.9"></rect>
+                                    </g>
+                                </svg>
+                            </span> <span class="d-block menu_text">MENU</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <header id="header" class="header position-relative" role="banner">
+            <div class="container-fluid">
+                <div class="row align-items-start">
+                    <div class="col-8 col-md-6">
+                        <a id="logo" class="d-inline-block brand" href="/">
+                            <img src="/images/logo.png" alt="MY Construction">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section id="slideshow" class="my position-relative l-padding inslide"></section>
+        <div id="main-content" class="position-relative" data-midnight="black">
+            <div class="container-fluid">
+                <div class="row">
+                    <main id="content" role="main" class="position-relative padding col-12">
+                        <div id="system-message-container"></div>
+                        <div class="blog services" itemscope="" itemtype="https://schema.org/Blog">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div id="back_to_projects">
+                                        <a class="d-block text-uppercase" href="/"
+                                           title="BACK TO HOMEPAGE">
+                                            <span class="d-inline-block back_to_svg">
+                                                <svg class="arrow_svg" viewBox="0 0 46.9 83.7">
+                                                    <g transform="translate(46.87) rotate(90)">
+                                                        <rect x="41" y="-18.5"
+                                                              transform="matrix(2.535182e-06 1 -1 2.535182e-06 65.2489 -18.4681)"
+                                                              width="1.6" height="83.7"></rect>
+                                                        <rect x="59.8" y="8.5"
+                                                              transform="matrix(0.7071 0.7071 -0.7071 0.7071 27.7452 -48.2956)"
+                                                              width="24.8" height="1.6"></rect>
+                                                        <rect x="70.9" y="25.1"
+                                                              transform="matrix(0.7071 0.7071 -0.7071 0.7071 47.5433 -39.7268)"
+                                                              width="1.6" height="24.8"></rect>
+                                                    </g>
+                                                </svg>
+                                            </span> BACK TO HOMEPAGE
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <h1 class="category-title padding-bot title text-uppercase">
+                                        <span class="subheading-category"> Services </span>
+                                    </h1>
+                                </div>
+                            </div>
+                            <div class="row items-row services-list pb-5 pb-lg-0 mb-5 mb-lg-0">
+                                @foreach (var service in servicesProvider)
+                                {
+                                    <div class="position-relative service-plain col-12">
+                                        <div class="item service-list-1" itemprop="blogPost" itemscope=""
+                                             itemtype="https://schema.org/BlogPosting">
+                                            <div class="position-relative services_list_item d-flex text-start">
+                                                <div class="w-100 position-relative services_list_content">
+                                                    <h2 class="service-list-a w-100 md-title text-uppercase position-relative"
+                                                        itemprop="name">
+                                                        <a class="d-block w-100"
+                                                           href="/services/@service.Title"
+                                                           title="Project Management"> @service.Title </a>
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                        <style>
+                            #slideshow.inslide {
+                                background-image: url("/images/services/services-header.jpg");
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                background-position: center center;
+                                filter: grayscale(100)
+                            }
+
+                                #slideshow.inslide::before {
+                                    content: " ";
+                                    width: 100%;
+                                    height: 100%;
+                                    position: absolute;
+                                    left: 0;
+                                    top: 0;
+                                    background-color: rgba(0, 0, 0, .55);
+                                    z-index: 0
+                                }
+                        </style>
+                        <div class="clr"></div>
+                    </main>
+                </div>
+            </div>
+        </div>
+        <footer id="footer" class="position-relative other-p" role="contentinfo">
+            <div class="container-fluid">
+                <div class="row align-items-start">
+                    <div class="col-12 col-lg-2 text-center">
+                        <a id="footer_logo" class="d-inline-block brand"
+                           href="/"> <img src="/images/dark-logo.png" alt="MY Construction"> </a>
+                    </div>
+                    <div class="ps-lg-5 col-12 col-lg-5 mb-5 mt-5 mt-lg-0 mb-lg-0 text-center text-lg-start">
+                        <div id="contact_info" class="text-uppercase">
+                            <div class="moduletable">
+                                <div class="custom">
+                                    <p>
+                                        <a href="tel:+923353222777" title="Call us +92 335 3222 777">
+                                            +92 335 3222
+                                            777
+                                        </a>
+                                    </p>
+                                    <p>
+                                        <a href="tel:+924235694332" title="Call us +92 42 356 94332">
+                                            +92 42 356
+                                            94332
+                                        </a>
+                                    </p>
+                                    <p>
+                                        <a href="mailto:imran@myconstruction.pk"
+                                           title="Send us your message imran@myconstruction.pk">
+                                            imran@myconstruction.pk
+                                        </a>
+                                    </p>
+                                    <p class="mb-0 address">182 DD CCA Phase IV, DHA Lahore, 54810, Pakistan</p>
+                                    <p>
+                                        <a href="//g.page/myconstructionpk" target="_blank" rel="noopener"
+                                           class="mt-2 fz-14px" title="View Map">(View Map)</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-start text-lg-start mb-5 mb-lg-0 col-12 col-lg-4">
+                        <div id="footer_social">
+                            <div class="row">
+                                <div class="col w-auto">
+                                    <a class="d-block inst text-uppercase mb-3" target="_blank"
+                                       href="//www.instagram.com/myconstructionpk/" title="Instagram">
+                                        <span class="ico icofont-instagram"></span>
+                                    </a>
+                                </div>
+                                <div class="col w-auto">
+                                    <a class="d-block inst text-uppercase mb-3" target="_blank"
+                                       href="//www.facebook.com/myconstructionpk" title="Facebook">
+                                        <span class="ico icofont-facebook"></span>
+                                    </a>
+                                </div>
+                                <div class="col w-auto">
+                                    <a class="d-block inst text-uppercase mb-3" target="_blank"
+                                       title="Pinterest"> <span class="ico icofont-pinterest"></span> </a>
+                                </div>
+                                <div class="col w-auto">
+                                    <a class="d-block inst text-uppercase mb-3" target="_blank"
+                                       href="//www.youtube.com/channel/UC1LpDkv5DYiBdZFr5NxZsvQ" title="Youtube">
+                                        <span class="ico icofont-youtube-play"></span>
+                                    </a>
+                                </div>
+                                <div class="col w-auto">
+                                    <a class="d-block inst text-uppercase mb-3" target="_blank"
+                                       href="#" title="Twitter"> <span class="ico icofont-twitter"></span> </a>
+                                </div>
+                                <div class="ms-3 col w-auto">
+                                    <a class="d-block face text-uppercase mb-3"
+                                       target="_blank" title="LinkedIn">
+                                        <span class="ico icofont-linkedin"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-1 justify-content-end d-flex"></div>
+                </div>
+                <div id="copy" class="row align-items-end small mb-4">
+                    <div class="col-12 ps-lg-5 col-sm-6 col-lg-5 offset-lg-2">
+                        <p class="copyrights mb-0">
+                            © 2023 MY Construction.<br> <a href="//octacer.com"
+                                                           rel="nofollow" target="_blank" title="Octacer">Developed by Octacer</a>
+                        </p>
+                    </div>
+                    <div class="mt-4 mt-sm-0 col-12 col-sm-6 col-lg-4 offeset-lg-1">
+                        <a class="privacy-link"
+                           href="/privacy-cookies" title="Privacy &amp; Cookies Policy">
+                            PRIVACY &amp; COOKIES
+                            POLICY
+                        </a><br> <a class="privacy-link" href="/covid-policy" title="Covid Policy">
+                            COVID
+                            POLICY
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="/bundle/main.js?v=XngNJ9MrKElnHR7Nh_nxXplh9oIuVlDKdl32M1ktwMk"></script>
+<script type="module" src="/js/main.js?live=02"></script>
+<script type="module" src="/js/animation.js"></script>
+<script type="module" src="/js/home.js"></script>
+<script>
+    if (window.innerWidth >= 768) {
+        const cursor = document.querySelector('.cursor'); window.addEventListener('mousemove', (e) => { cursor.style.left = e.pageX + 'px'; cursor.style.top = e.pageY + 'px'; cursor.setAttribute('data-topOffset', (cursor.offsetTop - scrollY)); })
+        window.addEventListener('scroll', () => { const fromTop = parseInt(cursor.getAttribute('data-topOffset')); cursor.style.top = scrollY + fromTop + 'px'; })
+        window.addEventListener('click', () => { if (cursor.classList.contains('click')) { cursor.classList.remove('click'); void cursor.offsetWidth; cursor.classList.add('click'); } else { cursor.classList.add('click'); } })
+    }
+    if (window.innerWidth < 768) { jQuery('.cursor').addClass('xl'); }</script><a id="back-top" href="#top"
+                                                                                  class="green_text text-uppercase fixedBack">
+    Back to top
+    <svg class="arrow_svg" viewBox="0 0 46.9 83.7">
+        <g transform="translate(46.87) rotate(90)">
+            <rect x="41" y="-18.5" transform="matrix(2.535182e-06 1 -1 2.535182e-06 65.2489 -18.4681)" width="1.6"
+                  height="83.7"></rect>
+            <rect x="59.8" y="8.5" transform="matrix(0.7071 0.7071 -0.7071 0.7071 27.7452 -48.2956)" width="24.8"
+                  height="1.6"></rect>
+            <rect x="70.9" y="25.1" transform="matrix(0.7071 0.7071 -0.7071 0.7071 47.5433 -39.7268)" width="1.6"
+                  height="24.8"></rect>
+        </g>
+    </svg>
+</a>

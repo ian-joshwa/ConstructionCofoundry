@@ -1,0 +1,26 @@
+@media (min-width: 768px) and (max-width: 1023.99px) 
+{
+    .itemid-129 #logo img, .itemid-130 #logo img {
+        height: 120px;
+    }
+
+    #slideshow.home .title {
+        font-size: 40px !important;
+    }
+
+    #slideshow.home .main_header_subtitle {
+        width: 27.5rem;
+        padding-left: 0;
+        padding-right: 7px;
+        font-size: 24px;
+    }
+    
+    #slideshow_img {
+        bottom: -10%;
+    }
+
+    .company-offset {
+        margin-left: 0 !important;
+    }
+
+}

@@ -1,0 +1,27 @@
+﻿
+@model MyConstruction.Models.ProjectTaskDetail
+
+
+<div class="modal fade">
+
+	<div class="modal-dialog">
+		<div class="modal-content">
+
+			<div class="modal-header">
+				<h4 class="modal-title">@Model.TaskName</h4>
+				<button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+			</div>
+
+			<div class="modal-body">
+
+						<div class="row p-3">
+							<h5>Description:</h5>
+							<p>@Model.Description</p>
+						</div>
+
+			</div>
+
+		</div>
+
+	</div>
+</div>
